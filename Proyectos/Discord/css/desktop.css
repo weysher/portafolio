@@ -1,0 +1,76 @@
+.section--main--container {  
+    display: flex;
+    flex-direction: row;    
+    column-gap: 5%;
+    width: 95vw;
+    margin: 20px ;
+    margin-left: -0.5%;
+}
+
+.section--container__center {
+  order: 2;
+}
+.section--main__right {
+  margin-top: -626px;  
+}
+
+
+/* .main-tables-container {
+  display: flex;
+  width: 930px;
+  margin: 0 auto;
+}
+.product-cards--container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 930px;
+  margin: 0 auto;
+}
+.plans-container--slider {
+  justify-content: center;
+} */
+
+/*Estilos buscador*/
+.section--container__seach {
+  
+}
+.section--search {    
+  justify-content: center;  
+  align-items: center;
+  flex-direction: row; 
+  justify-content: space-between;   
+  height: 40px;  
+  position: relative;
+}
+.search {
+  position: absolute;
+  left:49%;
+  top: 68%;
+  transform: translateX(-50%) translateY(-50%);  
+}
+.circle--container {
+  position: absolute;
+  left:80%;
+  top: 48%;
+  transform: translateX(-50%) translateY(-50%);  
+}
+.section--search p {
+  padding-top: 10px;
+  margin-left: 10px;
+ }
+ .section--change {   
+   height: 40px;
+   position: relative;
+ }
+ .section--change p {
+  position: absolute;
+  left:40%;
+  top: 10%;
+  transform: translateX(-50%) translateY(-50%);  
+ }
+ .section--change button {
+  position: absolute;
+  left:47.5%;
+  top: 75%;
+  transform: translateX(-50%) translateY(-50%); 
+ }
